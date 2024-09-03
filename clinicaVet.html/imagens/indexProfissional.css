@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+   background-image: url(imagens/imagem3.jpg); 
+   background-attachment: local;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.org{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    width: 80%;
+}
+
+fieldset {
+    width: 60%; 
+    padding: 2px 10px;
+    padding-bottom: 15px;
+    border: px solidg green;
+    box-shadow: 5px 6px blue;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 15pt;
+    background-image: linear-gradient(to bottom,rgb(188, 197, 199), rgb(64, 214, 76));
+    color: #f6fcf9;
+}
+
+fieldset input{
+    padding: 4px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+}
+
+fieldset a{
+    color: blue;
+}
+
+fieldset legend{
+    color:black;
+    margin-bottom: 5px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.habilidades{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.espaco {
+    margin-block: 3px;
+}
+
+.return a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
